@@ -1,0 +1,399 @@
+INFO  2017-12-04 01:37:00,626  3319ms SqlServerStorage       CallSite.Target    - Start installing Hangfire SQL objects...
+INFO  2017-12-04 01:37:00,870  3563ms SqlServerStorage       CallSite.Target    - Hangfire SQL objects installed.
+INFO  2017-12-04 01:37:00,917  3610ms BackgroundJobServer    CallSite.Target    - Starting Hangfire Server
+INFO  2017-12-04 01:37:00,921  3614ms BackgroundJobServer    CallSite.Target    - Using job storage: 'SQL Server: DESKTOP-GTMD0BG\SQLEXPRESS@hangfire'
+INFO  2017-12-04 01:37:00,921  3614ms BackgroundJobServer    CallSite.Target    - Using the following options for SQL Server job storage:
+INFO  2017-12-04 01:37:00,922  3615ms BackgroundJobServer    CallSite.Target    -     Queue poll interval: 00:00:15.
+INFO  2017-12-04 01:37:00,922  3615ms BackgroundJobServer    CallSite.Target    - Using the following options for Hangfire Server:
+INFO  2017-12-04 01:37:00,923  3616ms BackgroundJobServer    CallSite.Target    -     Worker count: 20
+INFO  2017-12-04 01:37:00,923  3616ms BackgroundJobServer    CallSite.Target    -     Listening queues: 'default'
+INFO  2017-12-04 01:37:00,923  3616ms BackgroundJobServer    CallSite.Target    -     Shutdown timeout: 00:00:15
+INFO  2017-12-04 01:37:00,924  3617ms BackgroundJobServer    CallSite.Target    -     Schedule polling interval: 00:00:15
+DEBUG 2017-12-04 01:37:00,947  3640ms groundProcessingServer CallSite.Target    - Background process 'BackgroundProcessingServer' started.
+DEBUG 2017-12-04 01:37:01,218  3911ms ServerHeartbeat        CallSite.Target    - Background process 'ServerHeartbeat' started.
+DEBUG 2017-12-04 01:37:01,222  3915ms ServerWatchdog         CallSite.Target    - Background process 'ServerWatchdog' started.
+DEBUG 2017-12-04 01:37:01,228  3922ms ExpirationManager      CallSite.Target    - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2017-12-04 01:37:01,232  3925ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2017-12-04 01:37:01,237  3930ms CountersAggregator     CallSite.Target    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+INFO  2017-12-04 01:37:01,240  3933ms ServerWatchdog         CallSite.Target    - 2 servers were removed due to timeout
+DEBUG 2017-12-04 01:37:01,240  3934ms CountersAggregator     CallSite.Target    - Aggregating records in 'Counter' table...
+DEBUG 2017-12-04 01:37:01,245  3939ms Worker                 CallSite.Target    - Background process 'Worker #e8d6fe2d' started.
+DEBUG 2017-12-04 01:37:01,249  3942ms Worker                 CallSite.Target    - Background process 'Worker #9fe4b993' started.
+DEBUG 2017-12-04 01:37:01,276  3969ms CountersAggregator     CallSite.Target    - Records from the 'Counter' table aggregated.
+DEBUG 2017-12-04 01:37:01,283  3976ms Worker                 CallSite.Target    - Background process 'Worker #b7fb8872' started.
+DEBUG 2017-12-04 01:37:01,286  3980ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2017-12-04 01:37:01,286  3980ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Job' table...
+DEBUG 2017-12-04 01:37:01,292  3986ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Job' table.
+DEBUG 2017-12-04 01:37:01,293  3986ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'List' table...
+DEBUG 2017-12-04 01:37:01,296  3989ms Worker                 CallSite.Target    - Background process 'Worker #17bcfbc3' started.
+DEBUG 2017-12-04 01:37:01,297  3990ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'List' table.
+DEBUG 2017-12-04 01:37:01,297  3991ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Set' table...
+DEBUG 2017-12-04 01:37:01,308  4002ms Worker                 CallSite.Target    - Background process 'Worker #d7922f15' started.
+DEBUG 2017-12-04 01:37:01,316  4009ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Set' table.
+DEBUG 2017-12-04 01:37:01,316  4010ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Hash' table...
+DEBUG 2017-12-04 01:37:01,320  4013ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Hash' table.
+DEBUG 2017-12-04 01:37:01,379  4073ms Worker                 CallSite.Target    - Background process 'Worker #13970d6a' started.
+DEBUG 2017-12-04 01:37:01,380  4074ms Worker                 CallSite.Target    - Background process 'Worker #55855bd7' started.
+DEBUG 2017-12-04 01:37:01,389  4082ms Worker                 CallSite.Target    - Background process 'Worker #8d0268bc' started.
+DEBUG 2017-12-04 01:37:01,394  4087ms Worker                 CallSite.Target    - Background process 'Worker #cb96d05a' started.
+DEBUG 2017-12-04 01:37:01,399  4093ms Worker                 CallSite.Target    - Background process 'Worker #91c03611' started.
+DEBUG 2017-12-04 01:37:01,403  4097ms Worker                 CallSite.Target    - Background process 'Worker #ba6bdab8' started.
+DEBUG 2017-12-04 01:37:01,407  4101ms Worker                 CallSite.Target    - Background process 'Worker #6c6d1791' started.
+DEBUG 2017-12-04 01:37:01,412  4105ms Worker                 CallSite.Target    - Background process 'Worker #8b88284e' started.
+DEBUG 2017-12-04 01:37:01,415  4109ms Worker                 CallSite.Target    - Background process 'Worker #d7575a33' started.
+DEBUG 2017-12-04 01:37:01,422  4115ms Worker                 CallSite.Target    - Background process 'Worker #ac5abcaa' started.
+DEBUG 2017-12-04 01:37:01,426  4119ms Worker                 CallSite.Target    - Background process 'Worker #41c6fcce' started.
+DEBUG 2017-12-04 01:37:01,430  4124ms Worker                 CallSite.Target    - Background process 'Worker #8870f05b' started.
+DEBUG 2017-12-04 01:37:01,434  4127ms Worker                 CallSite.Target    - Background process 'Worker #d15e4378' started.
+DEBUG 2017-12-04 01:37:01,440  4134ms Worker                 CallSite.Target    - Background process 'Worker #156f2986' started.
+DEBUG 2017-12-04 01:37:01,447  4141ms Worker                 CallSite.Target    - Background process 'Worker #fa86ceda' started.
+DEBUG 2017-12-04 01:37:01,452  4145ms DelayedJobScheduler    CallSite.Target    - Background process 'DelayedJobScheduler' started.
+DEBUG 2017-12-04 01:37:01,456  4149ms RecurringJobScheduler  CallSite.Target    - Background process 'RecurringJobScheduler' started.
+INFO  2017-12-04 01:37:02,059  4753ms RequestResponseHandler MoveNext           - 
+DEBUG 2017-12-04 01:37:02,235  4928ms RequestResponseHandler MoveNext           - 
+INFO  2017-12-04 01:37:02,271  4965ms RequestResponseHandler MoveNext           - 
+DEBUG 2017-12-04 01:37:02,274  4968ms RequestResponseHandler MoveNext           - 
+INFO  2017-12-04 01:37:17,497 20190ms RequestResponseHandler MoveNext           - 
+DEBUG 2017-12-04 01:37:17,575 20269ms RequestResponseHandler MoveNext           - 
+INFO  2017-12-04 01:41:49,047  2997ms SqlServerStorage       CallSite.Target    - Start installing Hangfire SQL objects...
+INFO  2017-12-04 01:41:49,261  3210ms SqlServerStorage       CallSite.Target    - Hangfire SQL objects installed.
+INFO  2017-12-04 01:41:49,307  3256ms BackgroundJobServer    CallSite.Target    - Starting Hangfire Server
+INFO  2017-12-04 01:41:49,310  3259ms BackgroundJobServer    CallSite.Target    - Using job storage: 'SQL Server: DESKTOP-GTMD0BG\SQLEXPRESS@hangfire'
+INFO  2017-12-04 01:41:49,310  3260ms BackgroundJobServer    CallSite.Target    - Using the following options for SQL Server job storage:
+INFO  2017-12-04 01:41:49,311  3260ms BackgroundJobServer    CallSite.Target    -     Queue poll interval: 00:00:15.
+INFO  2017-12-04 01:41:49,311  3261ms BackgroundJobServer    CallSite.Target    - Using the following options for Hangfire Server:
+INFO  2017-12-04 01:41:49,311  3261ms BackgroundJobServer    CallSite.Target    -     Worker count: 20
+INFO  2017-12-04 01:41:49,312  3261ms BackgroundJobServer    CallSite.Target    -     Listening queues: 'default'
+INFO  2017-12-04 01:41:49,312  3261ms BackgroundJobServer    CallSite.Target    -     Shutdown timeout: 00:00:15
+INFO  2017-12-04 01:41:49,312  3262ms BackgroundJobServer    CallSite.Target    -     Schedule polling interval: 00:00:15
+DEBUG 2017-12-04 01:41:49,339  3288ms groundProcessingServer CallSite.Target    - Background process 'BackgroundProcessingServer' started.
+DEBUG 2017-12-04 01:41:49,594  3544ms ServerHeartbeat        CallSite.Target    - Background process 'ServerHeartbeat' started.
+DEBUG 2017-12-04 01:41:49,598  3547ms ServerWatchdog         CallSite.Target    - Background process 'ServerWatchdog' started.
+DEBUG 2017-12-04 01:41:49,602  3551ms ExpirationManager      CallSite.Target    - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2017-12-04 01:41:49,606  3556ms CountersAggregator     CallSite.Target    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2017-12-04 01:41:49,608  3558ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2017-12-04 01:41:49,610  3560ms CountersAggregator     CallSite.Target    - Aggregating records in 'Counter' table...
+DEBUG 2017-12-04 01:41:49,613  3563ms Worker                 CallSite.Target    - Background process 'Worker #f76f0196' started.
+INFO  2017-12-04 01:41:49,615  3564ms ServerWatchdog         CallSite.Target    - 1 servers were removed due to timeout
+DEBUG 2017-12-04 01:41:49,617  3566ms Worker                 CallSite.Target    - Background process 'Worker #2c980278' started.
+DEBUG 2017-12-04 01:41:49,624  3573ms Worker                 CallSite.Target    - Background process 'Worker #2644f25f' started.
+DEBUG 2017-12-04 01:41:49,628  3577ms Worker                 CallSite.Target    - Background process 'Worker #67aff9ab' started.
+DEBUG 2017-12-04 01:41:49,642  3592ms CountersAggregator     CallSite.Target    - Records from the 'Counter' table aggregated.
+DEBUG 2017-12-04 01:41:49,647  3596ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2017-12-04 01:41:49,647  3597ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Job' table...
+DEBUG 2017-12-04 01:41:49,686  3636ms Worker                 CallSite.Target    - Background process 'Worker #44fa7f1e' started.
+DEBUG 2017-12-04 01:41:49,688  3638ms Worker                 CallSite.Target    - Background process 'Worker #dbb97ce8' started.
+DEBUG 2017-12-04 01:41:49,736  3686ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Job' table.
+DEBUG 2017-12-04 01:41:49,737  3687ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'List' table...
+DEBUG 2017-12-04 01:41:49,739  3688ms Worker                 CallSite.Target    - Background process 'Worker #00aa7ca9' started.
+DEBUG 2017-12-04 01:41:49,742  3691ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'List' table.
+DEBUG 2017-12-04 01:41:49,742  3692ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Set' table...
+DEBUG 2017-12-04 01:41:49,743  3693ms Worker                 CallSite.Target    - Background process 'Worker #6fb4665f' started.
+DEBUG 2017-12-04 01:41:49,745  3695ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Set' table.
+DEBUG 2017-12-04 01:41:49,746  3696ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Hash' table...
+DEBUG 2017-12-04 01:41:49,748  3697ms Worker                 CallSite.Target    - Background process 'Worker #1e7daa6d' started.
+DEBUG 2017-12-04 01:41:49,749  3699ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Hash' table.
+DEBUG 2017-12-04 01:41:49,751  3700ms Worker                 CallSite.Target    - Background process 'Worker #5ab334ae' started.
+DEBUG 2017-12-04 01:41:49,756  3706ms Worker                 CallSite.Target    - Background process 'Worker #ff6373a2' started.
+DEBUG 2017-12-04 01:41:49,760  3710ms Worker                 CallSite.Target    - Background process 'Worker #bb935016' started.
+DEBUG 2017-12-04 01:41:49,780  3729ms Worker                 CallSite.Target    - Background process 'Worker #4d6acb19' started.
+DEBUG 2017-12-04 01:41:49,783  3733ms Worker                 CallSite.Target    - Background process 'Worker #ea2a3652' started.
+DEBUG 2017-12-04 01:41:49,787  3736ms Worker                 CallSite.Target    - Background process 'Worker #2a535850' started.
+DEBUG 2017-12-04 01:41:49,793  3742ms Worker                 CallSite.Target    - Background process 'Worker #04f82a09' started.
+DEBUG 2017-12-04 01:41:49,798  3747ms Worker                 CallSite.Target    - Background process 'Worker #daaf4dc1' started.
+DEBUG 2017-12-04 01:41:49,802  3751ms Worker                 CallSite.Target    - Background process 'Worker #60f6c9c3' started.
+DEBUG 2017-12-04 01:41:49,808  3758ms Worker                 CallSite.Target    - Background process 'Worker #66f975b5' started.
+DEBUG 2017-12-04 01:41:49,812  3762ms Worker                 CallSite.Target    - Background process 'Worker #42325453' started.
+DEBUG 2017-12-04 01:41:49,817  3767ms DelayedJobScheduler    CallSite.Target    - Background process 'DelayedJobScheduler' started.
+DEBUG 2017-12-04 01:41:49,820  3770ms RecurringJobScheduler  CallSite.Target    - Background process 'RecurringJobScheduler' started.
+INFO  2017-12-04 01:41:50,372  4321ms teste                  MoveNext           - 
+DEBUG 2017-12-04 01:41:50,510  4460ms teste                  MoveNext           - 
+INFO  2017-12-04 01:41:50,542  4491ms teste                  MoveNext           - 
+DEBUG 2017-12-04 01:41:50,544  4493ms teste                  MoveNext           - 
+INFO  2017-12-04 01:41:59,748 13698ms teste                  MoveNext           - 
+DEBUG 2017-12-04 01:41:59,828 13778ms teste                  MoveNext           - 
+INFO  2017-12-04 01:47:34,697  3043ms SqlServerStorage       CallSite.Target    - Start installing Hangfire SQL objects...
+INFO  2017-12-04 01:47:34,918  3264ms SqlServerStorage       CallSite.Target    - Hangfire SQL objects installed.
+INFO  2017-12-04 01:47:34,972  3318ms BackgroundJobServer    CallSite.Target    - Starting Hangfire Server
+INFO  2017-12-04 01:47:34,977  3323ms BackgroundJobServer    CallSite.Target    - Using job storage: 'SQL Server: DESKTOP-GTMD0BG\SQLEXPRESS@hangfire'
+INFO  2017-12-04 01:47:34,978  3324ms BackgroundJobServer    CallSite.Target    - Using the following options for SQL Server job storage:
+INFO  2017-12-04 01:47:34,978  3325ms BackgroundJobServer    CallSite.Target    -     Queue poll interval: 00:00:15.
+INFO  2017-12-04 01:47:34,978  3325ms BackgroundJobServer    CallSite.Target    - Using the following options for Hangfire Server:
+INFO  2017-12-04 01:47:34,979  3325ms BackgroundJobServer    CallSite.Target    -     Worker count: 20
+INFO  2017-12-04 01:47:34,980  3326ms BackgroundJobServer    CallSite.Target    -     Listening queues: 'default'
+INFO  2017-12-04 01:47:34,980  3326ms BackgroundJobServer    CallSite.Target    -     Shutdown timeout: 00:00:15
+INFO  2017-12-04 01:47:34,980  3327ms BackgroundJobServer    CallSite.Target    -     Schedule polling interval: 00:00:15
+DEBUG 2017-12-04 01:47:35,006  3353ms groundProcessingServer CallSite.Target    - Background process 'BackgroundProcessingServer' started.
+DEBUG 2017-12-04 01:47:35,271  3618ms ServerHeartbeat        CallSite.Target    - Background process 'ServerHeartbeat' started.
+DEBUG 2017-12-04 01:47:35,280  3626ms ExpirationManager      CallSite.Target    - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2017-12-04 01:47:35,283  3629ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2017-12-04 01:47:35,287  3633ms ServerWatchdog         CallSite.Target    - Background process 'ServerWatchdog' started.
+DEBUG 2017-12-04 01:47:35,290  3636ms CountersAggregator     CallSite.Target    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2017-12-04 01:47:35,294  3640ms CountersAggregator     CallSite.Target    - Aggregating records in 'Counter' table...
+DEBUG 2017-12-04 01:47:35,296  3642ms Worker                 CallSite.Target    - Background process 'Worker #cc884f28' started.
+INFO  2017-12-04 01:47:35,300  3647ms ServerWatchdog         CallSite.Target    - 1 servers were removed due to timeout
+DEBUG 2017-12-04 01:47:35,302  3648ms Worker                 CallSite.Target    - Background process 'Worker #8d2b6bbd' started.
+DEBUG 2017-12-04 01:47:35,307  3654ms Worker                 CallSite.Target    - Background process 'Worker #5919a4cd' started.
+DEBUG 2017-12-04 01:47:35,312  3658ms Worker                 CallSite.Target    - Background process 'Worker #3297decc' started.
+DEBUG 2017-12-04 01:47:35,322  3668ms Worker                 CallSite.Target    - Background process 'Worker #39b331d8' started.
+DEBUG 2017-12-04 01:47:35,329  3675ms Worker                 CallSite.Target    - Background process 'Worker #29770f24' started.
+DEBUG 2017-12-04 01:47:35,329  3676ms CountersAggregator     CallSite.Target    - Records from the 'Counter' table aggregated.
+DEBUG 2017-12-04 01:47:35,331  3678ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2017-12-04 01:47:35,332  3678ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Job' table...
+DEBUG 2017-12-04 01:47:35,352  3698ms Worker                 CallSite.Target    - Background process 'Worker #6e3a8344' started.
+DEBUG 2017-12-04 01:47:35,399  3746ms Worker                 CallSite.Target    - Background process 'Worker #3bd94f63' started.
+DEBUG 2017-12-04 01:47:35,402  3749ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Job' table.
+DEBUG 2017-12-04 01:47:35,403  3749ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'List' table...
+DEBUG 2017-12-04 01:47:35,403  3749ms Worker                 CallSite.Target    - Background process 'Worker #4763a195' started.
+DEBUG 2017-12-04 01:47:35,409  3756ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'List' table.
+DEBUG 2017-12-04 01:47:35,409  3756ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Set' table...
+DEBUG 2017-12-04 01:47:35,411  3757ms Worker                 CallSite.Target    - Background process 'Worker #bbd59269' started.
+DEBUG 2017-12-04 01:47:35,413  3760ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Set' table.
+DEBUG 2017-12-04 01:47:35,414  3761ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Hash' table...
+DEBUG 2017-12-04 01:47:35,417  3763ms Worker                 CallSite.Target    - Background process 'Worker #d8db8fa2' started.
+DEBUG 2017-12-04 01:47:35,419  3766ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Hash' table.
+DEBUG 2017-12-04 01:47:35,421  3768ms Worker                 CallSite.Target    - Background process 'Worker #0d88706f' started.
+DEBUG 2017-12-04 01:47:35,427  3774ms Worker                 CallSite.Target    - Background process 'Worker #5bdda4b9' started.
+DEBUG 2017-12-04 01:47:35,431  3778ms Worker                 CallSite.Target    - Background process 'Worker #8530d88f' started.
+DEBUG 2017-12-04 01:47:35,436  3783ms Worker                 CallSite.Target    - Background process 'Worker #6497fa9a' started.
+DEBUG 2017-12-04 01:47:35,441  3787ms Worker                 CallSite.Target    - Background process 'Worker #31d464ee' started.
+DEBUG 2017-12-04 01:47:35,445  3792ms Worker                 CallSite.Target    - Background process 'Worker #0c66506c' started.
+DEBUG 2017-12-04 01:47:35,449  3795ms Worker                 CallSite.Target    - Background process 'Worker #1cabbd8d' started.
+DEBUG 2017-12-04 01:47:35,467  3813ms Worker                 CallSite.Target    - Background process 'Worker #7045c490' started.
+DEBUG 2017-12-04 01:47:35,473  3819ms Worker                 CallSite.Target    - Background process 'Worker #b45db3d5' started.
+DEBUG 2017-12-04 01:47:35,478  3824ms DelayedJobScheduler    CallSite.Target    - Background process 'DelayedJobScheduler' started.
+DEBUG 2017-12-04 01:47:35,504  3850ms RecurringJobScheduler  CallSite.Target    - Background process 'RecurringJobScheduler' started.
+INFO  2017-12-04 01:47:36,077  4424ms HanoiLogger            MoveNext           - 
+DEBUG 2017-12-04 01:47:36,224  4571ms HanoiLogger            MoveNext           - 
+INFO  2017-12-04 01:47:36,258  4605ms HanoiLogger            MoveNext           - 
+DEBUG 2017-12-04 01:47:36,260  4607ms HanoiLogger            MoveNext           - 
+INFO  2017-12-04 01:47:52,877 21224ms HanoiLogger            MoveNext           - 
+DEBUG 2017-12-04 01:47:52,954 21300ms HanoiLogger            MoveNext           - 
+INFO  2017-12-04 01:49:55,281  3085ms SqlServerStorage       CallSite.Target    - Start installing Hangfire SQL objects...
+INFO  2017-12-04 01:49:55,519  3323ms SqlServerStorage       CallSite.Target    - Hangfire SQL objects installed.
+INFO  2017-12-04 01:49:55,579  3383ms BackgroundJobServer    CallSite.Target    - Starting Hangfire Server
+INFO  2017-12-04 01:49:55,584  3388ms BackgroundJobServer    CallSite.Target    - Using job storage: 'SQL Server: DESKTOP-GTMD0BG\SQLEXPRESS@hangfire'
+INFO  2017-12-04 01:49:55,585  3389ms BackgroundJobServer    CallSite.Target    - Using the following options for SQL Server job storage:
+INFO  2017-12-04 01:49:55,585  3389ms BackgroundJobServer    CallSite.Target    -     Queue poll interval: 00:00:15.
+INFO  2017-12-04 01:49:55,585  3389ms BackgroundJobServer    CallSite.Target    - Using the following options for Hangfire Server:
+INFO  2017-12-04 01:49:55,585  3389ms BackgroundJobServer    CallSite.Target    -     Worker count: 20
+INFO  2017-12-04 01:49:55,586  3390ms BackgroundJobServer    CallSite.Target    -     Listening queues: 'default'
+INFO  2017-12-04 01:49:55,586  3390ms BackgroundJobServer    CallSite.Target    -     Shutdown timeout: 00:00:15
+INFO  2017-12-04 01:49:55,586  3390ms BackgroundJobServer    CallSite.Target    -     Schedule polling interval: 00:00:15
+DEBUG 2017-12-04 01:49:55,617  3421ms groundProcessingServer CallSite.Target    - Background process 'BackgroundProcessingServer' started.
+DEBUG 2017-12-04 01:49:55,887  3691ms ServerHeartbeat        CallSite.Target    - Background process 'ServerHeartbeat' started.
+DEBUG 2017-12-04 01:49:55,890  3694ms ServerWatchdog         CallSite.Target    - Background process 'ServerWatchdog' started.
+DEBUG 2017-12-04 01:49:55,894  3698ms ExpirationManager      CallSite.Target    - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2017-12-04 01:49:55,897  3701ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'AggregatedCounter' table...
+INFO  2017-12-04 01:49:55,905  3709ms ServerWatchdog         CallSite.Target    - 1 servers were removed due to timeout
+DEBUG 2017-12-04 01:49:55,905  3709ms CountersAggregator     CallSite.Target    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2017-12-04 01:49:55,930  3734ms CountersAggregator     CallSite.Target    - Aggregating records in 'Counter' table...
+DEBUG 2017-12-04 01:49:55,932  3736ms Worker                 CallSite.Target    - Background process 'Worker #8dd1eddc' started.
+DEBUG 2017-12-04 01:49:55,937  3741ms Worker                 CallSite.Target    - Background process 'Worker #da361664' started.
+DEBUG 2017-12-04 01:49:55,952  3756ms Worker                 CallSite.Target    - Background process 'Worker #c48dd1ec' started.
+DEBUG 2017-12-04 01:49:55,954  3758ms CountersAggregator     CallSite.Target    - Records from the 'Counter' table aggregated.
+DEBUG 2017-12-04 01:49:55,972  3776ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2017-12-04 01:49:55,973  3776ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Job' table...
+DEBUG 2017-12-04 01:49:55,996  3800ms Worker                 CallSite.Target    - Background process 'Worker #ed440765' started.
+DEBUG 2017-12-04 01:49:56,000  3804ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Job' table.
+DEBUG 2017-12-04 01:49:56,000  3804ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'List' table...
+DEBUG 2017-12-04 01:49:56,023  3827ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'List' table.
+DEBUG 2017-12-04 01:49:56,023  3827ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Set' table...
+DEBUG 2017-12-04 01:49:56,026  3830ms Worker                 CallSite.Target    - Background process 'Worker #e3a8925c' started.
+DEBUG 2017-12-04 01:49:56,028  3832ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Set' table.
+DEBUG 2017-12-04 01:49:56,029  3833ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Hash' table...
+DEBUG 2017-12-04 01:49:56,065  3869ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Hash' table.
+DEBUG 2017-12-04 01:49:56,069  3872ms Worker                 CallSite.Target    - Background process 'Worker #8e118a21' started.
+DEBUG 2017-12-04 01:49:56,070  3874ms Worker                 CallSite.Target    - Background process 'Worker #38e2ea25' started.
+DEBUG 2017-12-04 01:49:56,074  3878ms Worker                 CallSite.Target    - Background process 'Worker #9b9ef888' started.
+DEBUG 2017-12-04 01:49:56,078  3882ms Worker                 CallSite.Target    - Background process 'Worker #bdf0a70f' started.
+DEBUG 2017-12-04 01:49:56,083  3887ms Worker                 CallSite.Target    - Background process 'Worker #bed4a0ff' started.
+DEBUG 2017-12-04 01:49:56,088  3892ms Worker                 CallSite.Target    - Background process 'Worker #dd3c0e59' started.
+DEBUG 2017-12-04 01:49:56,094  3898ms Worker                 CallSite.Target    - Background process 'Worker #012aabeb' started.
+DEBUG 2017-12-04 01:49:56,097  3901ms Worker                 CallSite.Target    - Background process 'Worker #2c2ae49f' started.
+DEBUG 2017-12-04 01:49:56,117  3921ms Worker                 CallSite.Target    - Background process 'Worker #67d8d4a7' started.
+DEBUG 2017-12-04 01:49:56,121  3925ms Worker                 CallSite.Target    - Background process 'Worker #0e030345' started.
+DEBUG 2017-12-04 01:49:56,124  3928ms Worker                 CallSite.Target    - Background process 'Worker #27a34c25' started.
+DEBUG 2017-12-04 01:49:56,130  3934ms Worker                 CallSite.Target    - Background process 'Worker #8ef40a2d' started.
+DEBUG 2017-12-04 01:49:56,137  3941ms Worker                 CallSite.Target    - Background process 'Worker #f29aeeb4' started.
+DEBUG 2017-12-04 01:49:56,142  3946ms Worker                 CallSite.Target    - Background process 'Worker #81323870' started.
+DEBUG 2017-12-04 01:49:56,146  3950ms Worker                 CallSite.Target    - Background process 'Worker #7b07de9c' started.
+DEBUG 2017-12-04 01:49:56,152  3956ms DelayedJobScheduler    CallSite.Target    - Background process 'DelayedJobScheduler' started.
+DEBUG 2017-12-04 01:49:56,158  3962ms RecurringJobScheduler  CallSite.Target    - Background process 'RecurringJobScheduler' started.
+INFO  2017-12-04 01:49:56,726  4530ms HanoiLogger            MoveNext           - 
+DEBUG 2017-12-04 01:50:19,860 27663ms HanoiLogger            MoveNext           - 
+INFO  2017-12-04 01:50:19,929 27732ms HanoiLogger            MoveNext           - 
+DEBUG 2017-12-04 01:50:21,336 29140ms HanoiLogger            MoveNext           - 
+INFO  2017-12-04 01:50:24,709 32513ms HanoiLogger            MoveNext           - 
+INFO  2017-12-04 01:51:57,958  3122ms SqlServerStorage       CallSite.Target    - Start installing Hangfire SQL objects...
+INFO  2017-12-04 01:51:58,202  3366ms SqlServerStorage       CallSite.Target    - Hangfire SQL objects installed.
+INFO  2017-12-04 01:51:58,251  3415ms BackgroundJobServer    CallSite.Target    - Starting Hangfire Server
+INFO  2017-12-04 01:51:58,254  3418ms BackgroundJobServer    CallSite.Target    - Using job storage: 'SQL Server: DESKTOP-GTMD0BG\SQLEXPRESS@hangfire'
+INFO  2017-12-04 01:51:58,255  3419ms BackgroundJobServer    CallSite.Target    - Using the following options for SQL Server job storage:
+INFO  2017-12-04 01:51:58,255  3419ms BackgroundJobServer    CallSite.Target    -     Queue poll interval: 00:00:15.
+INFO  2017-12-04 01:51:58,256  3420ms BackgroundJobServer    CallSite.Target    - Using the following options for Hangfire Server:
+INFO  2017-12-04 01:51:58,256  3420ms BackgroundJobServer    CallSite.Target    -     Worker count: 20
+INFO  2017-12-04 01:51:58,256  3420ms BackgroundJobServer    CallSite.Target    -     Listening queues: 'default'
+INFO  2017-12-04 01:51:58,257  3421ms BackgroundJobServer    CallSite.Target    -     Shutdown timeout: 00:00:15
+INFO  2017-12-04 01:51:58,257  3421ms BackgroundJobServer    CallSite.Target    -     Schedule polling interval: 00:00:15
+DEBUG 2017-12-04 01:51:58,281  3445ms groundProcessingServer CallSite.Target    - Background process 'BackgroundProcessingServer' started.
+DEBUG 2017-12-04 01:51:58,545  3709ms ServerHeartbeat        CallSite.Target    - Background process 'ServerHeartbeat' started.
+DEBUG 2017-12-04 01:51:58,548  3712ms ServerWatchdog         CallSite.Target    - Background process 'ServerWatchdog' started.
+DEBUG 2017-12-04 01:51:58,552  3716ms ExpirationManager      CallSite.Target    - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2017-12-04 01:51:58,555  3719ms CountersAggregator     CallSite.Target    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2017-12-04 01:51:58,557  3721ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2017-12-04 01:51:58,559  3723ms CountersAggregator     CallSite.Target    - Aggregating records in 'Counter' table...
+DEBUG 2017-12-04 01:51:58,563  3727ms Worker                 CallSite.Target    - Background process 'Worker #47c40991' started.
+DEBUG 2017-12-04 01:51:58,577  3741ms Worker                 CallSite.Target    - Background process 'Worker #03c0e460' started.
+DEBUG 2017-12-04 01:51:58,588  3752ms CountersAggregator     CallSite.Target    - Records from the 'Counter' table aggregated.
+DEBUG 2017-12-04 01:51:58,594  3758ms Worker                 CallSite.Target    - Background process 'Worker #b2b822af' started.
+DEBUG 2017-12-04 01:51:58,596  3760ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2017-12-04 01:51:58,596  3760ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Job' table...
+DEBUG 2017-12-04 01:51:58,602  3766ms Worker                 CallSite.Target    - Background process 'Worker #63ee0752' started.
+DEBUG 2017-12-04 01:51:58,604  3768ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Job' table.
+DEBUG 2017-12-04 01:51:58,604  3768ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'List' table...
+DEBUG 2017-12-04 01:51:58,637  3801ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'List' table.
+DEBUG 2017-12-04 01:51:58,638  3802ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Set' table...
+DEBUG 2017-12-04 01:51:58,650  3814ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Set' table.
+DEBUG 2017-12-04 01:51:58,650  3814ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Hash' table...
+DEBUG 2017-12-04 01:51:58,650  3814ms Worker                 CallSite.Target    - Background process 'Worker #976cca5b' started.
+DEBUG 2017-12-04 01:51:58,661  3825ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Hash' table.
+DEBUG 2017-12-04 01:51:58,714  3878ms Worker                 CallSite.Target    - Background process 'Worker #a0eee1a0' started.
+DEBUG 2017-12-04 01:51:58,722  3886ms Worker                 CallSite.Target    - Background process 'Worker #038cfd01' started.
+DEBUG 2017-12-04 01:51:58,728  3892ms Worker                 CallSite.Target    - Background process 'Worker #1a6ce842' started.
+DEBUG 2017-12-04 01:51:58,737  3901ms Worker                 CallSite.Target    - Background process 'Worker #222d08b0' started.
+DEBUG 2017-12-04 01:51:58,743  3907ms Worker                 CallSite.Target    - Background process 'Worker #f920c11d' started.
+DEBUG 2017-12-04 01:51:58,746  3910ms Worker                 CallSite.Target    - Background process 'Worker #0e4f12ca' started.
+DEBUG 2017-12-04 01:51:58,752  3916ms Worker                 CallSite.Target    - Background process 'Worker #882d2b63' started.
+DEBUG 2017-12-04 01:51:58,758  3922ms Worker                 CallSite.Target    - Background process 'Worker #2904432a' started.
+DEBUG 2017-12-04 01:51:58,761  3925ms Worker                 CallSite.Target    - Background process 'Worker #93de1f3f' started.
+DEBUG 2017-12-04 01:51:58,767  3931ms Worker                 CallSite.Target    - Background process 'Worker #eb302f82' started.
+DEBUG 2017-12-04 01:51:58,772  3936ms Worker                 CallSite.Target    - Background process 'Worker #361ccfaf' started.
+DEBUG 2017-12-04 01:51:58,779  3943ms Worker                 CallSite.Target    - Background process 'Worker #ac46d1ac' started.
+DEBUG 2017-12-04 01:51:58,784  3948ms Worker                 CallSite.Target    - Background process 'Worker #0ba06086' started.
+DEBUG 2017-12-04 01:51:58,790  3954ms Worker                 CallSite.Target    - Background process 'Worker #39dee0ff' started.
+DEBUG 2017-12-04 01:51:58,796  3960ms Worker                 CallSite.Target    - Background process 'Worker #fd136fd4' started.
+DEBUG 2017-12-04 01:51:58,802  3966ms DelayedJobScheduler    CallSite.Target    - Background process 'DelayedJobScheduler' started.
+DEBUG 2017-12-04 01:51:58,811  3975ms RecurringJobScheduler  CallSite.Target    - Background process 'RecurringJobScheduler' started.
+INFO  2017-12-04 01:51:59,394  4558ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 01:51:59,544  4708ms HanoiLogger            MoveNext           - <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
+INFO  2017-12-04 01:51:59,582  4746ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 01:51:59,583  4747ms HanoiLogger            MoveNext           - <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
+INFO  2017-12-04 01:51:59,693  4857ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 01:51:59,695  4859ms HanoiLogger            MoveNext           - <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
+INFO  2017-12-04 01:51:59,702  4866ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 01:51:59,703  4867ms HanoiLogger            MoveNext           - <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
+INFO  2017-12-04 01:52:07,056 12220ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 01:52:07,133 12297ms HanoiLogger            MoveNext           - "Teste"
+INFO  2017-12-04 02:18:59,191  3795ms SqlServerStorage       CallSite.Target    - Start installing Hangfire SQL objects...
+INFO  2017-12-04 02:18:59,461  4065ms SqlServerStorage       CallSite.Target    - Hangfire SQL objects installed.
+INFO  2017-12-04 02:18:59,507  4111ms BackgroundJobServer    CallSite.Target    - Starting Hangfire Server
+INFO  2017-12-04 02:18:59,511  4115ms BackgroundJobServer    CallSite.Target    - Using job storage: 'SQL Server: DESKTOP-GTMD0BG\SQLEXPRESS@hangfire'
+INFO  2017-12-04 02:18:59,512  4116ms BackgroundJobServer    CallSite.Target    - Using the following options for SQL Server job storage:
+INFO  2017-12-04 02:18:59,512  4116ms BackgroundJobServer    CallSite.Target    -     Queue poll interval: 00:00:15.
+INFO  2017-12-04 02:18:59,512  4116ms BackgroundJobServer    CallSite.Target    - Using the following options for Hangfire Server:
+INFO  2017-12-04 02:18:59,513  4117ms BackgroundJobServer    CallSite.Target    -     Worker count: 20
+INFO  2017-12-04 02:18:59,513  4117ms BackgroundJobServer    CallSite.Target    -     Listening queues: 'default'
+INFO  2017-12-04 02:18:59,513  4117ms BackgroundJobServer    CallSite.Target    -     Shutdown timeout: 00:00:15
+INFO  2017-12-04 02:18:59,513  4117ms BackgroundJobServer    CallSite.Target    -     Schedule polling interval: 00:00:15
+DEBUG 2017-12-04 02:18:59,538  4142ms groundProcessingServer CallSite.Target    - Background process 'BackgroundProcessingServer' started.
+DEBUG 2017-12-04 02:18:59,803  4407ms ServerHeartbeat        CallSite.Target    - Background process 'ServerHeartbeat' started.
+DEBUG 2017-12-04 02:18:59,808  4412ms ServerWatchdog         CallSite.Target    - Background process 'ServerWatchdog' started.
+DEBUG 2017-12-04 02:18:59,812  4416ms ExpirationManager      CallSite.Target    - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2017-12-04 02:18:59,816  4420ms CountersAggregator     CallSite.Target    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2017-12-04 02:18:59,817  4421ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2017-12-04 02:18:59,822  4426ms Worker                 CallSite.Target    - Background process 'Worker #73e33865' started.
+INFO  2017-12-04 02:18:59,827  4431ms ServerWatchdog         CallSite.Target    - 3 servers were removed due to timeout
+DEBUG 2017-12-04 02:18:59,830  4434ms CountersAggregator     CallSite.Target    - Aggregating records in 'Counter' table...
+DEBUG 2017-12-04 02:18:59,859  4463ms Worker                 CallSite.Target    - Background process 'Worker #3dd7383f' started.
+DEBUG 2017-12-04 02:18:59,896  4500ms CountersAggregator     CallSite.Target    - Records from the 'Counter' table aggregated.
+DEBUG 2017-12-04 02:18:59,896  4500ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2017-12-04 02:18:59,896  4500ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Job' table...
+DEBUG 2017-12-04 02:18:59,910  4514ms Worker                 CallSite.Target    - Background process 'Worker #7cf91e73' started.
+DEBUG 2017-12-04 02:18:59,915  4519ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Job' table.
+DEBUG 2017-12-04 02:18:59,915  4519ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'List' table...
+DEBUG 2017-12-04 02:18:59,922  4526ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'List' table.
+DEBUG 2017-12-04 02:18:59,923  4527ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Set' table...
+DEBUG 2017-12-04 02:18:59,927  4531ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Set' table.
+DEBUG 2017-12-04 02:18:59,928  4532ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Hash' table...
+DEBUG 2017-12-04 02:18:59,935  4539ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Hash' table.
+DEBUG 2017-12-04 02:18:59,958  4562ms Worker                 CallSite.Target    - Background process 'Worker #35bc5375' started.
+DEBUG 2017-12-04 02:18:59,973  4577ms Worker                 CallSite.Target    - Background process 'Worker #62a6bf3c' started.
+DEBUG 2017-12-04 02:18:59,980  4584ms Worker                 CallSite.Target    - Background process 'Worker #3e3fb642' started.
+DEBUG 2017-12-04 02:18:59,984  4588ms Worker                 CallSite.Target    - Background process 'Worker #d7cf6c22' started.
+DEBUG 2017-12-04 02:18:59,990  4594ms Worker                 CallSite.Target    - Background process 'Worker #c6580e0d' started.
+DEBUG 2017-12-04 02:18:59,995  4599ms Worker                 CallSite.Target    - Background process 'Worker #1e9d44ac' started.
+DEBUG 2017-12-04 02:18:59,999  4603ms Worker                 CallSite.Target    - Background process 'Worker #9a7b59cf' started.
+DEBUG 2017-12-04 02:19:00,004  4608ms Worker                 CallSite.Target    - Background process 'Worker #d169315f' started.
+DEBUG 2017-12-04 02:19:00,012  4616ms Worker                 CallSite.Target    - Background process 'Worker #dbc5b800' started.
+DEBUG 2017-12-04 02:19:00,046  4650ms Worker                 CallSite.Target    - Background process 'Worker #dabbb083' started.
+DEBUG 2017-12-04 02:19:00,047  4651ms Worker                 CallSite.Target    - Background process 'Worker #e2f43770' started.
+DEBUG 2017-12-04 02:19:00,059  4663ms Worker                 CallSite.Target    - Background process 'Worker #bb93c112' started.
+DEBUG 2017-12-04 02:19:00,069  4673ms Worker                 CallSite.Target    - Background process 'Worker #520533f0' started.
+DEBUG 2017-12-04 02:19:00,077  4681ms Worker                 CallSite.Target    - Background process 'Worker #49cad4fd' started.
+DEBUG 2017-12-04 02:19:00,082  4686ms Worker                 CallSite.Target    - Background process 'Worker #027c3921' started.
+DEBUG 2017-12-04 02:19:00,087  4691ms Worker                 CallSite.Target    - Background process 'Worker #3f09eda4' started.
+DEBUG 2017-12-04 02:19:00,095  4699ms Worker                 CallSite.Target    - Background process 'Worker #563cc708' started.
+DEBUG 2017-12-04 02:19:00,102  4706ms DelayedJobScheduler    CallSite.Target    - Background process 'DelayedJobScheduler' started.
+DEBUG 2017-12-04 02:19:00,110  4714ms RecurringJobScheduler  CallSite.Target    - Background process 'RecurringJobScheduler' started.
+INFO  2017-12-04 02:19:00,681  5285ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 02:19:00,822  5426ms HanoiLogger            MoveNext           - response: <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
+INFO  2017-12-04 02:19:00,856  5460ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 02:19:00,857  5461ms HanoiLogger            MoveNext           - response: <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
+INFO  2017-12-04 02:19:20,287 24891ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 02:19:27,291 31895ms HanoiLogger            MoveNext           - response: {"success":true,"data":[{"Id":"118c3924-190c-402c-91cd-54480689dcb9","Start":"2017-12-04T00:27:11.777","End":"2017-12-04T00:27:20.253","Disks":9},{"Id":"1d8949c3-6fc5-467f-9451-5b0634d5daac","Start":"2017-12-04T00:30:18.12","End":"2017-12-04T00:31:55.147","Disks":12}]}
+INFO  2017-12-04 03:16:30,530  2948ms SqlServerStorage       CallSite.Target    - Start installing Hangfire SQL objects...
+INFO  2017-12-04 03:16:30,743  3161ms SqlServerStorage       CallSite.Target    - Hangfire SQL objects installed.
+INFO  2017-12-04 03:16:30,787  3205ms BackgroundJobServer    CallSite.Target    - Starting Hangfire Server
+INFO  2017-12-04 03:16:30,790  3208ms BackgroundJobServer    CallSite.Target    - Using job storage: 'SQL Server: DESKTOP-GTMD0BG\SQLEXPRESS@hangfire'
+INFO  2017-12-04 03:16:30,791  3209ms BackgroundJobServer    CallSite.Target    - Using the following options for SQL Server job storage:
+INFO  2017-12-04 03:16:30,791  3209ms BackgroundJobServer    CallSite.Target    -     Queue poll interval: 00:00:15.
+INFO  2017-12-04 03:16:30,791  3209ms BackgroundJobServer    CallSite.Target    - Using the following options for Hangfire Server:
+INFO  2017-12-04 03:16:30,791  3209ms BackgroundJobServer    CallSite.Target    -     Worker count: 20
+INFO  2017-12-04 03:16:30,792  3210ms BackgroundJobServer    CallSite.Target    -     Listening queues: 'default'
+INFO  2017-12-04 03:16:30,792  3210ms BackgroundJobServer    CallSite.Target    -     Shutdown timeout: 00:00:15
+INFO  2017-12-04 03:16:30,792  3210ms BackgroundJobServer    CallSite.Target    -     Schedule polling interval: 00:00:15
+DEBUG 2017-12-04 03:16:30,813  3231ms groundProcessingServer CallSite.Target    - Background process 'BackgroundProcessingServer' started.
+DEBUG 2017-12-04 03:16:31,064  3481ms ServerHeartbeat        CallSite.Target    - Background process 'ServerHeartbeat' started.
+DEBUG 2017-12-04 03:16:31,066  3483ms ServerWatchdog         CallSite.Target    - Background process 'ServerWatchdog' started.
+INFO  2017-12-04 03:16:31,085  3502ms ServerWatchdog         CallSite.Target    - 1 servers were removed due to timeout
+DEBUG 2017-12-04 03:16:31,086  3503ms ExpirationManager      CallSite.Target    - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2017-12-04 03:16:31,091  3508ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2017-12-04 03:16:31,092  3509ms CountersAggregator     CallSite.Target    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2017-12-04 03:16:31,095  3512ms CountersAggregator     CallSite.Target    - Aggregating records in 'Counter' table...
+DEBUG 2017-12-04 03:16:31,114  3531ms Worker                 CallSite.Target    - Background process 'Worker #fd3a6432' started.
+DEBUG 2017-12-04 03:16:31,115  3532ms CountersAggregator     CallSite.Target    - Records from the 'Counter' table aggregated.
+DEBUG 2017-12-04 03:16:31,123  3540ms Worker                 CallSite.Target    - Background process 'Worker #6c85f5dc' started.
+DEBUG 2017-12-04 03:16:31,126  3543ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2017-12-04 03:16:31,126  3543ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Job' table...
+DEBUG 2017-12-04 03:16:31,150  3567ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Job' table.
+DEBUG 2017-12-04 03:16:31,150  3567ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'List' table...
+DEBUG 2017-12-04 03:16:31,154  3571ms Worker                 CallSite.Target    - Background process 'Worker #d8c73844' started.
+DEBUG 2017-12-04 03:16:31,176  3593ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'List' table.
+DEBUG 2017-12-04 03:16:31,176  3593ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Set' table...
+DEBUG 2017-12-04 03:16:31,182  3599ms Worker                 CallSite.Target    - Background process 'Worker #bf315e3a' started.
+DEBUG 2017-12-04 03:16:31,189  3606ms Worker                 CallSite.Target    - Background process 'Worker #beb78163' started.
+DEBUG 2017-12-04 03:16:31,244  3661ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Set' table.
+DEBUG 2017-12-04 03:16:31,245  3662ms ExpirationManager      CallSite.Target    - Removing outdated records from the 'Hash' table...
+DEBUG 2017-12-04 03:16:31,249  3666ms Worker                 CallSite.Target    - Background process 'Worker #09a02e5e' started.
+DEBUG 2017-12-04 03:16:31,250  3667ms ExpirationManager      CallSite.Target    - Outdated records removed from the 'Hash' table.
+DEBUG 2017-12-04 03:16:31,255  3672ms Worker                 CallSite.Target    - Background process 'Worker #a41a1c2e' started.
+DEBUG 2017-12-04 03:16:31,258  3675ms Worker                 CallSite.Target    - Background process 'Worker #6cdb4332' started.
+DEBUG 2017-12-04 03:16:31,262  3679ms Worker                 CallSite.Target    - Background process 'Worker #1145c42b' started.
+DEBUG 2017-12-04 03:16:31,266  3683ms Worker                 CallSite.Target    - Background process 'Worker #89858698' started.
+DEBUG 2017-12-04 03:16:31,270  3687ms Worker                 CallSite.Target    - Background process 'Worker #49e4f3e7' started.
+DEBUG 2017-12-04 03:16:31,273  3690ms Worker                 CallSite.Target    - Background process 'Worker #20b3a2e9' started.
+DEBUG 2017-12-04 03:16:31,278  3695ms Worker                 CallSite.Target    - Background process 'Worker #c43a8d6f' started.
+DEBUG 2017-12-04 03:16:31,282  3699ms Worker                 CallSite.Target    - Background process 'Worker #42bf8aea' started.
+DEBUG 2017-12-04 03:16:31,287  3704ms Worker                 CallSite.Target    - Background process 'Worker #d7b31c5c' started.
+DEBUG 2017-12-04 03:16:31,294  3711ms Worker                 CallSite.Target    - Background process 'Worker #31f60178' started.
+DEBUG 2017-12-04 03:16:31,299  3716ms Worker                 CallSite.Target    - Background process 'Worker #504c098c' started.
+DEBUG 2017-12-04 03:16:31,305  3722ms Worker                 CallSite.Target    - Background process 'Worker #de356d1f' started.
+DEBUG 2017-12-04 03:16:31,310  3727ms Worker                 CallSite.Target    - Background process 'Worker #49f4cd69' started.
+DEBUG 2017-12-04 03:16:31,314  3731ms Worker                 CallSite.Target    - Background process 'Worker #dd5aef53' started.
+DEBUG 2017-12-04 03:16:31,320  3737ms DelayedJobScheduler    CallSite.Target    - Background process 'DelayedJobScheduler' started.
+DEBUG 2017-12-04 03:16:31,348  3765ms RecurringJobScheduler  CallSite.Target    - Background process 'RecurringJobScheduler' started.
+INFO  2017-12-04 03:16:31,877  4294ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 03:16:32,013  4430ms HanoiLogger            MoveNext           - response: <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
+INFO  2017-12-04 03:16:32,053  4470ms HanoiLogger            MoveNext           - No request body
+DEBUG 2017-12-04 03:16:32,054  4471ms HanoiLogger            MoveNext           - response: <Error><Message>No HTTP resource was found that matches the request URI 'http://localhost:54286/'.</Message><MessageDetail>No route data was found for this request.</MessageDetail></Error>
